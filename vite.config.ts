@@ -8,5 +8,5 @@ export default defineConfig({
   resolve: {
     alias: [{find: "@", replacement: path.resolve(process.cwd(), "src")}]
   },
-  base: "warghkhan"
+  base: "advokati-slv"
 })
