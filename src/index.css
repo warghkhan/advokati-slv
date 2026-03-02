@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap');
 
 @import "tailwindcss";
 
 @theme {
   --font-*: initial;
-  --font-merriweather: "Merriweather", "serif";
-  --font-roboto-flex: "Roboto Flex", "sans-serif";
+  --font-headers: "Playfair Display SC", "serif";
+  --font-sub-headers: "Merriweather", "serif";
+  --font-main-content: "Roboto Flex", "sans-serif";
 }
 
